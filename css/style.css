@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Poppins;
+}
+
+.fundo {
+  background: url(../img/Group\ 50.png) center/cover no-repeat;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* --------------------------------------Cabecario-----------------------------------*/
+
+.cabecario {
+  display: flex;
+  padding-top: 70px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 23px;
+  font-weight: 600;
+  margin-right: 100px;
+  color: white;
+}
+
+.logo:hover {
+  color: #43ed9c;
+}
+
+.logo span {
+  color: #43ed9c;
+}
+
+.logo span:hover {
+  color: white;
+}
+
+nav ul {
+  display: flex;
+}
+
+.cabecario nav ul li {
+  margin-left: 78px;
+}
+
+.cabecario nav ul li a {
+  color: white;
+  font-size: 23px;
+  position: relative;
+}
+
+.cabecario nav ul li a:before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 0;
+  background: #43ed9c;
+  border-radius: 4px;
+  transition: height 300ms;
+}
+
+.cabecario nav ul li a:hover::before {
+  height: 4px;
+}
+
+.cabecario nav ul li:first-child a,
+.cabecario nav ul li:last-child a {
+  font-weight: bold;
+}
+
+.cabecario nav ul li a.active::before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 4px;
+  background: #43ed9c;
+  border-radius: 4px;
+}
+
+.cabecario button {
+  margin-left: 71px;
+  width: 200px;
+  height: 62px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 32px;
+  background-color: #43ed9c;
+  cursor: pointer;
+}
+
+.cabecario button:hover {
+  background-color: #80ecb8;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+.content {
+  display: flex;
+}
+
+.content-left {
+  width: 657px;
+  height: 226px;
+  margin-right: 395px;
+}
+
+.content-left h1 {
+  margin-top: 260px;
+  font-size: 78px;
+  color: white;
+  font-weight: bold;
+}
+
+.content-left p {
+  font-size: 26px;
+  color: white;
+  font-weight: 300;
+  line-height: 39px;
+  margin-top: 17px;
+}
+
+.content-left button {
+  width: 270px;
+  height: 70px;
+  margin-top: 87px;
+  background-color: #43ed9c;
+  border-radius: 32px;
+  border: none;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.content-left button:hover {
+  background-color: #78f8ba;
+}
+
+.content-rigth img {
+  width: 100%;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+.content-bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-bottom p {
+  font-size: 32px;
+  color: rgb(110, 110, 110);
+
+  margin-left: 140px;
+  margin-bottom: 59px;
+}
+
+.moeda-1 {
+  position: relative;
+}
+
+.moeda-1::before {
+  content: "";
+  width: 34px;
+  height: 34px;
+
+  color: white;
+  background: url(../img/Icon\ awesome-bitcoin.png) center/cover no-repeat;
+  right: 115px;
+  bottom: 8px;
+  position: absolute;
+}
+
+.moeda-2 {
+  position: relative;
+}
+
+.moeda-2::before {
+  content: "";
+  width: 34px;
+  height: 34px;
+
+  color: white;
+  background: url(../img/Icon\ awesome-ethereum.png) no-repeat;
+  right: 150px;
+  bottom: 8px;
+  position: absolute;
+}
+
+.moeda-3 {
+  position: relative;
+}
+
+.moeda-3::before {
+  content: "";
+  width: 34px;
+  height: 34px;
+
+  color: white;
+  background: url(../img/icons8_litecoin_100px.png) center/cover no-repeat;
+  right: 130px;
+  bottom: 8px;
+  position: absolute;
+}
+
+.moeda-4 {
+  position: relative;
+}
+
+.moeda-4::before {
+  content: "";
+  width: 34px;
+  height: 34px;
+
+  color: white;
+  background: url(../img/icons8_ripple_100px.png) center/cover no-repeat;
+  right: 102px;
+  bottom: 7px;
+  position: absolute;
+}
+
+.moeda-5 {
+  position: relative;
+}
+
+.moeda-5::before {
+  content: "";
+  width: 34px;
+  height: 34px;
+
+  color: white;
+  background: url(../img/icons8_dogecoin_100px.png) center/cover no-repeat;
+  right: 155px;
+  bottom: 7px;
+  position: absolute;
+}
+
+.moeda-6 {
+  position: relative;
+}
+
+.moeda-6::before {
+  content: "";
+  width: 34px;
+  height: 34px;
+
+  color: white;
+  background: url(../img/icons8_stellar_100px.png) center/cover no-repeat;
+  right: 115px;
+  bottom: 7px;
+  position: absolute;
+}

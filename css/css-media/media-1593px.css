@@ -1,0 +1,86 @@
+/* ------------------------------------------------------------1593px------------------- */
+
+@media (max-width: 1593px) {
+  .content-left h1 {
+    margin-top: 160px;
+    font-size: 68px;
+  }
+
+  .content-bottom p {
+    margin-left: 100px;
+  }
+}
+
+/* ------------------------------------------------------------1395px------------------- */
+
+@media (max-width: 1395px) {
+  .content-left h1 {
+    margin-top: 100px;
+    font-size: 68px;
+  }
+
+  .content-left button {
+    margin-top: 60px;
+  }
+
+  .content-bottom p {
+    margin-left: 80px;
+    font-size: 32px;
+  }
+}
+
+/* -------------------------------------------------------1327px------------------------ */
+
+@media (max-width: 1327px) {
+  .cabecario nav ul li {
+    margin-left: 60px;
+  }
+
+  .logo {
+    margin-right: 50px;
+  }
+
+  .content-left h1 {
+    margin-top: 100px;
+    font-size: 68px;
+  }
+
+  .content-left p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .content-left button {
+    margin-top: 30px;
+  }
+
+  .content-bottom p {
+    margin-left: 80px;
+    font-size: 32px;
+  }
+}
+
+/* -------------------------------------------------------1264px------------------------ */
+
+@media (max-width: 1264px) {
+  .cabecario nav ul li {
+    margin-left: 20px;
+  }
+
+  .cabecario button {
+    margin-left: 40px;
+  }
+
+  .content-left h1 {
+    margin-top: 70px;
+    font-size: 40px;
+  }
+
+  .content-left button {
+    margin-top: 30px;
+  }
+
+  .content-bottom {
+    display: none;
+  }
+}

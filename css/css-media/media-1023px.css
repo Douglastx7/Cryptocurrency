@@ -1,0 +1,55 @@
+@media (max-width: 1023px) {
+  .fundo {
+    background: url();
+    background-color: #1c1359;
+    height: 850px;
+  }
+
+  .container {
+    width: 300px;
+  }
+  .cell-mobile {
+    background: url(/img/mobile.png) center/cover no-repeat;
+    width: 309px;
+    height: 309px;
+    margin: 0 auto;
+  }
+
+  .cabecario nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    display: none;
+  }
+
+  .content-left h1 {
+    text-align: center;
+  }
+
+  .content-left p {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .content-left button {
+    font-size: 15px;
+    margin-top: 61px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 50px;
+  }
+
+  .cabecario button {
+    display: none;
+  }
+  .content-rigth {
+    display: none;
+  }
+
+  .content-bottom {
+    display: none;
+  }
+}

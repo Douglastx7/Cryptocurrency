@@ -1,0 +1,28 @@
+@media (max-width: 1023px) {
+  .menu {
+    position: absolute;
+    top: 15px;
+    width: 300px;
+
+    transform: translateX(-300%);
+    transition: transform 200ms linear;
+  }
+
+  .menu_open {
+    transform: translateX(0);
+  }
+
+  .menu-item {
+    background-color: #19113f;
+    border-bottom: 1px solid #696969;
+    padding: 20px 13px;
+  }
+
+  .menu-item-action {
+    text-transform: uppercase;
+  }
+
+  .cabecario nav ul li a {
+    font-size: 16px;
+  }
+}
